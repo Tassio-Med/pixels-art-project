@@ -1,8 +1,3 @@
-let btnBlack = document.querySelector('.preto');
-let btnOrange = document.querySelector('.laranja');
-let btnPink = document.querySelector('.rosa');
-let btnPurple = document.querySelector('.roxo');
-
 let grid = 5;
 
 for(let i = 0; i < grid; i += 1) {
