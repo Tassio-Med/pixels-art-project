@@ -1,7 +1,8 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
-  margin: 5%;
+  margin: 0 auto;
+  text-align: center;
 }
 
 h1 {
@@ -9,54 +10,45 @@ h1 {
 }
 
 #color-palette{
-  margin: 5% 25% 2% 32%;
+  text-align: center;
 }
 
-#preto {
-  border: solid black;
-  border-width: 1px;
+.color {
+  width: 40px;
+  height: 40px;
+  border: 1px black solid;
+  margin: 20px 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+.preto {
   background-color: black;
-  padding: 40px;
-  margin-right: 20px;
-  display: inline-block;
+}
+.rosa {
+  background-color: pink;
 }
 
-#laranja {
-  border: solid black;
-  border-width: 1px;
-  background-color: #FB5607;
-  padding: 40px;
-  display: inline-block;
-  margin-right: 20px;
+.laranja {
+  background-color: orange;
 }
 
-#rosa { 
-  border: solid black;
-  border-width: 1px;
-  background-color: #FF006E;
-  padding: 40px;
-  display: inline-block;
-  margin-right: 20px;
-}
-
-#roxo {
-  border: solid black;
-  border-width: 1px;
-  background-color: #8338EC;
-  padding: 40px;
-  display: inline-block;
-  margin-right: 20px;
+.roxo {
+  background-color: purple;
 }
 
 /* QUADRO DE PIXELS */
 
 #pixel-board {
-  margin: 8% 30% 10% 30%;
+
+  justify-content: center;
+  margin: 20px;
+  display: inline-flex;
 }
 
 .pixel {
   border: solid black 1px;
-  padding: 40px;
-  display: inline-block;
   background-color: white;
+  width: 40px;
+  height: 40px;
 }
