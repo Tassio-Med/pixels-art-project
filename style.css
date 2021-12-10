@@ -8,21 +8,22 @@ h1 {
   text-align: center;
 }
 
-#color-palette {
-  margin-left: 33%;
+#color-palette{
+  margin: 5% 25% 10% 32%;
+  position: relative;
 }
-
+ 
 #preto {
-  border: solid black 1px;
+  border: solid black;
   border-width: 1px;
   background-color: black;
   padding: 40px;
-  display: inline-block;
   margin-right: 20px;
+  display: inline-block;
 }
 
 #laranja {
-  border: solid black 1px;
+  border: solid black;
   border-width: 1px;
   background-color: #FB5607;
   padding: 40px;
@@ -31,7 +32,7 @@ h1 {
 }
 
 #rosa { 
-  border: solid black 1px;
+  border: solid black;
   border-width: 1px;
   background-color: #FF006E;
   padding: 40px;
@@ -40,7 +41,7 @@ h1 {
 }
 
 #roxo {
-  border: solid black 1px;
+  border: solid black;
   border-width: 1px;
   background-color: #8338EC;
   padding: 40px;
@@ -48,35 +49,59 @@ h1 {
   margin-right: 20px;
 }
 
+/* OBS: a dica para fazer a junção dos quadrados encontrei nesse blog  -->  https://projects.raspberrypi.org/pt-BR/projects/pixel-art/2 */
+
 #quadro-de-pixels {
-  margin-top: 5%;
+  margin: 5% 25% 10% 32%;
+  position: relative;
 }
 
-#quadro1 {
-  border: solid black 1px;
-  padding: 40px;
-  display: inline-block;
+.aline-pixel1 {
+  display: table-row;
 }
 
-#quadro2 {
+.quadrados1 {
   border: solid black 1px;
   padding: 40px;
-  display: inline-block;
+  display: table-cell;
 }
 
-#quadro3 { 
-  border: solid black 1px;
-  padding: 40px;
-  display: inline-block;
+.aline-pixel2 {
+  display: table-row;
 }
 
-#quadro4 {
+.quadrados2 {
   border: solid black 1px;
   padding: 40px;
-  display: inline-block;
+  display: table-cell;
 }
-#quadro5 {
+
+.aline-pixel3 {
+  display: table-row;
+}
+
+.quadrados3 {
   border: solid black 1px;
   padding: 40px;
-  display: inline-block;
+  display: table-cell;
+}
+
+.aline-pixel4 {
+  display: table-row;
+}
+
+.quadrados4 {
+  border: solid black 1px;
+  padding: 40px;
+  display: table-cell;
+}
+
+.aline-pixel5 {
+  display: table-row;
+}
+
+.quadrados5 {
+  border: solid black 1px;
+  padding: 40px;
+  display: table-cell;
 }
