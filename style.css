@@ -12,7 +12,6 @@ h1 {
   margin: 5% 25% 2% 32%;
 }
 
- 
 #preto {
   border: solid black;
   border-width: 1px;
@@ -51,44 +50,13 @@ h1 {
 
 /* QUADRO DE PIXELS */
 
-#quadro-de-pixels {
-  margin: 3% 20% 10% 32%;
-  position: relative;
+#pixel-board {
+  margin: 8% 30% 10% 30%;
 }
 
-.quadrados1 {
-  border: solid black 1px;
-  padding: 40px;
-  display: inline-block
-}
-
-
-.quadraos1 {
-  border: solid black 1px;
-  padding: 40px;
-  display: inline-block
-}
-
-.quadrados2 {
-  border: solid black 1px;
-  padding: 40px;
-  display: inline-block
-}
-
-.quadrados3 {
+.pixel {
   border: solid black 1px;
   padding: 40px;
   display: inline-block;
-}
-
-.quadrados4 {
-  border: solid black 1px;
-  padding: 40px;
-  display: inline-block;
-}
-
-.quadrados5 {
-  border: solid black 1px;
-  padding: 40px;
-  display: inline-block
+  background-color: white;
 }
