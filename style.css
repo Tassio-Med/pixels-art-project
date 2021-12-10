@@ -9,9 +9,9 @@ h1 {
 }
 
 #color-palette{
-  margin: 5% 25% 10% 32%;
-  position: relative;
+  margin: 5% 25% 2% 32%;
 }
+
  
 #preto {
   border: solid black;
@@ -49,59 +49,46 @@ h1 {
   margin-right: 20px;
 }
 
-/* OBS: a dica para fazer a junção dos quadrados encontrei nesse blog  -->  https://projects.raspberrypi.org/pt-BR/projects/pixel-art/2 */
+/* QUADRO DE PIXELS */
 
 #quadro-de-pixels {
-  margin: 5% 25% 10% 32%;
+  margin: 3% 20% 10% 32%;
   position: relative;
-}
-
-.aline-pixel1 {
-  display: table-row;
 }
 
 .quadrados1 {
   border: solid black 1px;
   padding: 40px;
-  display: table-cell;
+  display: inline-block
 }
 
-.aline-pixel2 {
-  display: table-row;
+
+.quadraos1 {
+  border: solid black 1px;
+  padding: 40px;
+  display: inline-block
 }
 
 .quadrados2 {
   border: solid black 1px;
   padding: 40px;
-  display: table-cell;
-}
-
-.aline-pixel3 {
-  display: table-row;
+  display: inline-block
 }
 
 .quadrados3 {
   border: solid black 1px;
   padding: 40px;
-  display: table-cell;
-}
-
-.aline-pixel4 {
-  display: table-row;
+  display: inline-block;
 }
 
 .quadrados4 {
   border: solid black 1px;
   padding: 40px;
-  display: table-cell;
-}
-
-.aline-pixel5 {
-  display: table-row;
+  display: inline-block;
 }
 
 .quadrados5 {
   border: solid black 1px;
   padding: 40px;
-  display: table-cell;
+  display: inline-block
 }
