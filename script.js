@@ -18,13 +18,14 @@ for(let i = 0; i < grid; i += 1) {
 
 /* Mudar classe 'selected' */
 
-let passBlack = document.getElementsByClassName('preto');
-let passOrange = document.getElementsByClassName('laranja');
-let passPink = document.getElementsByClassName('rosa');
-let passPurple = document.getElementsByClassName('roxo');
+let palletColor = document.querySelector('#color-palette');
+let colorSelected = document.querySelector('.selected');
 
-let setColors = [passBlack, passOrange, passPink, passPurple];
+function changeClass(event) {
+  colorSelected = document.querySelector('.selected');
+  colorSelected.className = 'color';
 
-for (let a = 0; a < setColors.length; i+=1) {
-  
+  event.target.className = 'color selected';
 }
+
+  palletColor.addEventListener('click', changeClass);  
