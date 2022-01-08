@@ -40,13 +40,13 @@ h1 {
 /* QUADRO DE PIXELS */
 
 #pixel-board {
-
+  font-size: 0;
   justify-content: center;
   margin: 20px;
-  display: inline-flex;
 }
 
 .pixel {
+  display: inline-block;
   border: solid black 1px;
   background-color: white;
   width: 40px;
