@@ -27,7 +27,7 @@ function changeClass(event) {          /* ---> Resolvido com a ajuda do Kael cal
 
 /* Mudar a cor do pixel */
 
-function changeColor() {
+function changeColor(event) {
   let selectedClass = document.querySelector('.selected');  /* --> /* Resolvido com ajuda do do Gean Antunes, da Turma 19-B */  
   event.target.style.backgroundColor = window.getComputedStyle(selectedClass).getPropertyValue('background-color');
 }
